@@ -45,7 +45,7 @@ We use scikit-learn, a Python library, to train traditional machine learning mod
 
 ## Results
 
-Our model achieves the following performance on :
+Our model achieves the following performance:
 
 |Classification algorithm|	Accuracy | Accuracy with hyperparameter tuning|
 |------------------------|----------|:----------:|
