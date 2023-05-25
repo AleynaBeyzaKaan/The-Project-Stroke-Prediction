@@ -30,7 +30,8 @@ mean values which are calculated separately for the cases with and without strok
 To work with categorical variables for further analysis, data encoding was used. Converting categorical
 variables into numerical format using the factorize function, enhances the datasets’ relevance for
 modelling.
-
+### Data Analysis
+Getting the correlation between features.
 
 ## Requirements
 
