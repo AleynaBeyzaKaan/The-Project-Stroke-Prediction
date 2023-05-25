@@ -6,7 +6,7 @@ This project utilizes real-world and synthetic datasets to predict stroke events
 
 
 ## 2.Data
-### Data source
+### Data Source
 **Dataset:**: 
 Stroke Prediction Dataset from Kaggle website\
 [Kaggle Dataset 1](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)\
@@ -22,6 +22,13 @@ Stroke Prediction Dataset from Kaggle website\
 9) avg_glucose_level: average blood sugar  
 10) bmi: body mass index
 11) smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"
+### Data Cleaning
+In this project, we perform data cleaning to ensure the dataset is ready for analysis.
+Missing values in the ’bmi’ column was filled with the
+mean values which are calculated separately for the cases with and without strokes.
+
+
+
 
 ## Requirements
 
