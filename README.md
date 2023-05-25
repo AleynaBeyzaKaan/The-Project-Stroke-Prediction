@@ -41,7 +41,7 @@ modelling.
 
 ## 4.Training
 From a Python library which is scikit-learn we used 6 different machine learning models. \
-**`GradientBoostingClassifier`**,**`SVC`**, **`LogisticRegression`**,**`DecisionTreeClassifier`** , **`Xgboost`** , and **`RandomForestClassifier`** .
+**`GradientBoostingClassifier`**,**`SVC`**, **`LogisticRegression`**,**`DecisionTreeClassifier`** , **`Xgboost`** , and **`RandomForestClassifier`** . \
 We also used regressor models just to see how they worked. Regressor models are not decent options to use in binary classification problems.
 ## 5.Results
 
