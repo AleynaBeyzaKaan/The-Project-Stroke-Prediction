@@ -56,12 +56,12 @@ You can download pretrained models here:
 Our model achieves the following performance on :
 
 |Classification algorithm|	Accuracy | Accuracy with hyperparameter tuning|
-|------------------------|----------|----------|
-|GradientBoostingClassifier	|	83.73%|	    83.73%|
-|LogisticRegression|	79.20%	|     79.47%|
-|RandomForestClassifier	|99.32%|      99.32%	|
+|------------------------|----------|:----------:|
+|GradientBoostingClassifier	|	83.73%|	83.73%|
+|LogisticRegression|	79.20%	|79.47%|
+|RandomForestClassifier	|99.32%| 99.32%	|
 |SVC |79.58%|	|
-|DecisionTreeClassifier|	98.00%	|     98.16% |
+|DecisionTreeClassifier|	98.00%	| 98.16% |
 |XGBClassifier	| 95.16% |
 
 
