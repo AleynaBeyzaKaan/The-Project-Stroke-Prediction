@@ -75,7 +75,7 @@ Our model achieves the following performance on :
 |XGBClassifier	| 95.16% |
 
 
-![roc](roccurve.jpg)
+![roc](img/roccurve.jpg)
 
 >📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
