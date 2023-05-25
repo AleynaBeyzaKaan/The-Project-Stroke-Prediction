@@ -32,7 +32,7 @@ variables into numerical format using the factorize function, enhances the datas
 modelling.
 ### Data Analysis
 Getting the correlation between features.
-
+![cor](img/correlation1.jpg)
 ## Requirements
 
 To install requirements:
