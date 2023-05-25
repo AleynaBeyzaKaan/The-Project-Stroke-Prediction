@@ -9,7 +9,7 @@ This project utilizes real-world and synthetic datasets to predict stroke events
 ### Data source
 **Dataset descrption:**: 
 Stroke Prediction Dataset
-[Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
+[Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)\
 [Kaggle](https://www.kaggle.com/competitions/playground-series-s3e2/data)
 1) id: Patient ID 
 2) gender: "Male", "Female" or "Other"  
