@@ -37,7 +37,7 @@ modelling.
 To install requirements:
 
 ```setup
-install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 > The healthcare-dataset-stroke-data.csv data from [Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) is used.
