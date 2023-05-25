@@ -40,7 +40,8 @@ modelling.
 ![cor](img/correlation1.jpg)
 
 ## 4.Training
-### Splitting and Upsampling the Data
+We use scikit-learn, a Python library, to train traditional machine learning models. \
+GradientBoostingClassifier, SVC, LogisticRegression, DecisionTreeClassifier , Xgboost , and RandomForestClassifier .
 
 ## Results
 
@@ -57,10 +58,3 @@ Our model achieves the following performance on :
 
 
 ![roc](img/roccurve.jpg)
-
->📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
-
-
-## Contributing
-
->📋  Pick a licence and describe how to contribute to your code repository. 
