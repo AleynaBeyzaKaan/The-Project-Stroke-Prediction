@@ -54,7 +54,7 @@ Our model achieves the following performance on :
 <img
   src="![output](https://github.com/AleynaBeyzaKaan/The-Project-Stroke-Prediction/assets/83243392/6f8253eb-115b-4c33-8bdc-6786b29958d6)
 "
-  alt="C:\Users\DELL\Desktop\0a2efefd-05e2-412b-9a26-411175474ba8.png"
+  alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
