@@ -31,7 +31,7 @@ To work with categorical variables for further analysis, data encoding was used.
 variables into numerical format using the factorize function, enhances the datasets’ relevance for
 modelling.
 ### Data Analysis
-Getting the correlation between features.
+Getting the correlation between features.\
 ![cor](img/correlation1.jpg)
 ## Requirements
 
