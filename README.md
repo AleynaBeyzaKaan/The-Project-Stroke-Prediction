@@ -1,25 +1,19 @@
 # The-Project-Stroke-Prediction
 This project utilizes real-world and synthetic datasets to predict stroke events by analyzing clinical features. The aim is to determine the most key risk factors for strokes by investigating parameters like gender, age, hypertension, heart disease, and lifestyle choices.
-![roc](roccurve.jpg)
+## Data
+
+
+
+
 ## Requirements
 
 To install requirements:
 
 ```setup
-install healthcare-dataset-stroke-data.csv
+install -r requirements.txt
 ```
 
 > The healthcare-dataset-stroke-data.csv data from [Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) is used.
-
-## Training
-
-To train the model(s) in the paper, run this command:
-
-```train
-log_reg.fit(X_train, y_train)
-```
-
-> The given command is used to train logistic regression among the models used in the project. It has been applied to other models in similar ways.
 
 ## Evaluation
 
@@ -43,20 +37,17 @@ You can download pretrained models here:
 
 Our model achieves the following performance on :
 
-### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
+|Classification algorithm|	Accuracy | Accuracy with hyperparameter|
+|------------------------|----------|----------|
+|GradientBoostingClassifier	|	83.73%|	83.73%|
+|LogisticRegression|	79.20%	|79.47%|
+|RandomForestClassifier	|99.32%| 99.32%	|
+|SVC |79.58%|	|
+|DecisionTreeClassifier|	98.00%	|98.16% |
+|XGBClassifier	| 95.16% |
 
-| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
-| ------------------ |---------------- | -------------- |
-| LogisticRegression |  79.47%     |    99.32%   |
 
-
-
-<img
-  src="![output](https://github.com/AleynaBeyzaKaan/The-Project-Stroke-Prediction/assets/83243392/6f8253eb-115b-4c33-8bdc-6786b29958d6)
-"
-  alt="Alt text"
-  title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+![roc](roccurve.jpg)
 
 >📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
