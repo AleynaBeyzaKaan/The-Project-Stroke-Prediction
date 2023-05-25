@@ -35,14 +35,15 @@ mean values which are calculated separately for the cases with and without strok
 ### Encoding the Variables
 To work with categorical variables for further analysis, data encoding was used. Converting categorical
 variables into numerical format using the factorize function, enhances the datasets’ relevance for
-modelling.
+modelling. 
 ### Data Analysis
 ![cor](img/correlation1.jpg)
 
 ## 4.Training
 From a Python library which is scikit-learn we used 6 different machine learning models. \
 **`GradientBoostingClassifier`**,**`SVC`**, **`LogisticRegression`**,**`DecisionTreeClassifier`** , **`Xgboost`** , and **`RandomForestClassifier`** . \
-We also used regressor models just to see how they worked. Regressor models are not decent options to use in binary classification problems.
+We also used regressor models just to see how they worked. Regressor models are not decent options to use in binary classification problems.\
+Because regressor models used in continuous variables.
 ## 5.Results
 
 Our model achieves the following performance:
