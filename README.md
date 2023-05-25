@@ -1,5 +1,5 @@
 # The-Project-Stroke-Prediction
-This project aims to predict the stroke cases by using different machine learning models.
+This project utilizes real-world and synthetic datasets to predict stroke events by analyzing clinical features. The aim is to determine the most key risk factors for strokes by investigating parameters like gender, age, hypertension, heart disease, and lifestyle choices.
 
 ## Requirements
 
@@ -16,10 +16,10 @@ install healthcare-dataset-stroke-data.csv
 To train the model(s) in the paper, run this command:
 
 ```train
-python train.py --input-data <path_to_data> --alpha 10 --beta 20
+log_reg.fit(X_train, y_train)
 ```
 
->📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
+> The given command is used to train logistic regression among the models used in the project. It has been applied to other models in similar ways.
 
 ## Evaluation
 
@@ -48,6 +48,15 @@ Our model achieves the following performance on :
 | Model name         | Top 1 Accuracy  | Top 5 Accuracy |
 | ------------------ |---------------- | -------------- |
 | LogisticRegression |  79.47%     |    99.32%   |
+
+
+
+<img
+  src="![output](https://github.com/AleynaBeyzaKaan/The-Project-Stroke-Prediction/assets/83243392/6f8253eb-115b-4c33-8bdc-6786b29958d6)
+"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 >📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
