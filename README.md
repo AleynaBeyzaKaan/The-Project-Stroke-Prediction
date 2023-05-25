@@ -41,7 +41,7 @@ modelling.
 
 ## 4.Training
 We use scikit-learn, a Python library, to train traditional machine learning models. \
-GradientBoostingClassifier, SVC, LogisticRegression, DecisionTreeClassifier , Xgboost , and RandomForestClassifier .
+**'GradientBoostingClassifier'**, SVC, LogisticRegression, DecisionTreeClassifier , Xgboost , and RandomForestClassifier .
 
 ## Results
 
