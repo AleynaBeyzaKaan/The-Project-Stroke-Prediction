@@ -40,7 +40,7 @@ modelling.
 ![cor](img/correlation1.jpg)
 
 ## 4.Training
-We use scikit-learn, a Python library, to train traditional machine learning models. \
+From a Python library which is scikit-learn we used 6 different machine learning models. \
 **`GradientBoostingClassifier`**,**`SVC`**, **`LogisticRegression`**,**`DecisionTreeClassifier`** , **`Xgboost`** , and **`RandomForestClassifier`** .
 
 ## 5.Results
