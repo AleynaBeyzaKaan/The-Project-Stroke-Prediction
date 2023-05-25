@@ -2,10 +2,16 @@
 This project utilizes real-world and synthetic datasets to predict stroke events by analyzing clinical features. The aim is to determine the most key risk factors for strokes by investigating parameters like gender, age, hypertension, heart disease, and lifestyle choices.
 
 
+## 2.Requirements
+
+To install requirements:
+
+```setup
+pip install -r requirements.txt
+```
 
 
-
-## 2.Data
+## 3.Data
 ### Data Source
 **Dataset:**: 
 Stroke Prediction Dataset from Kaggle website\
@@ -32,33 +38,9 @@ variables into numerical format using the factorize function, enhances the datas
 modelling.
 ### Data Analysis
 ![cor](img/correlation1.jpg)
-## Requirements
 
-To install requirements:
-
-```setup
-pip install -r requirements.txt
-```
-
-> The healthcare-dataset-stroke-data.csv data from [Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) is used.
-
-## Evaluation
-
-To evaluate my model on ImageNet, run:
-
-```eval
-python eval.py --model-file mymodel.pth --benchmark imagenet
-```
-
->📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
-
-## Pre-trained Models
-
-You can download pretrained models here:
-
-- [My awesome model](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
-
->📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
+## 4.Training
+### Splitting and Upsampling the Data
 
 ## Results
 
