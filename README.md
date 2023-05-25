@@ -1,9 +1,27 @@
-# The-Project-Stroke-Prediction
+# 1.Introduction:The-Project-Stroke-Prediction
 This project utilizes real-world and synthetic datasets to predict stroke events by analyzing clinical features. The aim is to determine the most key risk factors for strokes by investigating parameters like gender, age, hypertension, heart disease, and lifestyle choices.
-## Data
 
 
 
+
+
+## 2.Data
+### Data source
+**Dataset descrption:**: 
+Stroke Prediction Dataset
+[Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
+[Kaggle](https://www.kaggle.com/competitions/playground-series-s3e2/data)
+1) id: Patient ID 
+2) gender: "Male", "Female" or "Other"  
+3) age: patient age  
+4) hypertension: 0 if the patient does not have hypertension, 1 if the patient does not have hypertension  
+5) heart_disease: 0 if the patient does not have heart disease, 1 if the patient has heart disease
+6) ever_married: "No" or "Yes" 
+7) work_type: "children", "Govt_jov", "Never_worked", "Private" or "Self-employed"  
+8) Residence_type: "Rural" or "Urban"  
+9) avg_glucose_level: average blood sugar  
+10) bmi: body mass index
+11) smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"
 
 ## Requirements
 
