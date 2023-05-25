@@ -23,7 +23,7 @@ Stroke Prediction Dataset from Kaggle website\
 10) bmi: body mass index
 11) smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"
 ### Data Cleaning
-In this project, we perform data cleaning to ensure the dataset is ready for analysis.
+In this project, we perform data cleaning to ensure the dataset is ready for analysis.\
 Missing values in the ’bmi’ column was filled with the
 mean values which are calculated separately for the cases with and without strokes.
 
