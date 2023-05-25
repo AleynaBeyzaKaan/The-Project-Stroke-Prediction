@@ -1,6 +1,6 @@
 # The-Project-Stroke-Prediction
 This project utilizes real-world and synthetic datasets to predict stroke events by analyzing clinical features. The aim is to determine the most key risk factors for strokes by investigating parameters like gender, age, hypertension, heart disease, and lifestyle choices.
-
+![roc](roccurve.jpg)
 ## Requirements
 
 To install requirements:
